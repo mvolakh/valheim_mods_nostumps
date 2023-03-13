@@ -20,7 +20,7 @@ namespace NoStumps
         void Awake()
         {
             modEnabled = Config.Bind<bool>("General", "Enable", true, "Enable/disable the mod");
-            dropEnabled = Config.Bind<bool>("General", "Enable Drop", true, "Enable/disable stumps dropping loot.");
+            dropEnabled = Config.Bind<bool>("General", "EnableDrop", true, "Enable/disable stumps dropping loot.");
 
             if (!modEnabled.Value) 
                 return;
