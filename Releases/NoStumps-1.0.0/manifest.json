@@ -1,0 +1,7 @@
+{
+    "name": "NoStumps",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/mvolakh/valheim_mods_nostump",
+    "description": "A simple mod that destroys a stump whenever you cut down a tree.",
+    "dependencies": []
+}
